@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-tests-production": "newman run test/jsonplaceholder.postman_collection.json"
+    "api-tests-production": "newman run tests/jsonplaceholder.postman_collection.json"
   },
   "author": "Vyachesav Fedorin",
   "dependencies": {
