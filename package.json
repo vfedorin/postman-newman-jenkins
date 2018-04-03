@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-tests-production": "newman run tests/jsonplaceholder.postman_collection.json --reposters junit --reporter-junit-export newman.xml"
+    "api-tests-production": "newman run tests/jsonplaceholder.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
   },
   "author": "Vyachesav Fedorin",
   "dependencies": {
